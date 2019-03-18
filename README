@@ -1,5 +1,10 @@
 # arg4wg
-An algorithm to build ancestral recombination graph for thousands of whole genomes
+An algorithm to build ancestral recombination graphs for thousands of whole genomes
+
+Citation:
+Nguyen, T. T. P., Le, V. S., Ho, H. B., & Le, Q. S. (2017). Building ancestral recombination graphs for whole genomes. IEEE/ACM transactions on computational biology and bioinformatics, 14(2), 478-483.
+
+-------- Instruction to compile and run arg4wg ---------
 
 Requirements:
 -	g++
