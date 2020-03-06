@@ -22,7 +22,7 @@ To build 3 ARGs for data in sample/ folder using 1 thread, the command line is:
 ./arg4wg –out sample/arg –nthread 1 –narg 3 –data sample/500haps1ksnps sample/500haps.name
 
 We will have 3 ARGs arg0, arg1, arg2.
-ARG files have the following fomat:
+ARG files have the following format:
 
 Sample NUM_SAMPLES
 SAMPLE_NAME_1	SAMPLE_NAME_2	… 	SAMPLE_NAME_NUMSAMPLES
@@ -32,7 +32,7 @@ NODE_1_ID	NODE_1_POS_LEFT	NODE_1_POS_RIGHT	NODE_1_PARENT_1	NODE_1_PARENT_2	NODE_
 …
 NODE_NUMNODES_ID	NODE_ NUMNODES_POS_LEFT	NODE_NUMNODES_POS_RIGHT	NODE_ NUMNODES_PARENT_1	NODE_NUMNODES_PARENT_2	NODE_ NUMNODES_CHILD_1	NODE_NUMNODES_CHILD_2		
 
-Beside ARG, the marginal trees are also output using -tree option. The tree files have the following fomat:
+Beside ARG, the marginal trees are also output using -tree option. The tree files have the following format:
 Marker 0
 CHILD1 CHILD2 PARENT
 …
